@@ -16,7 +16,7 @@ const Home = () => {
 
             <div className="bg-gray-100 py-16 px-4 md:px-0">
                 <div className="container mx-auto text-center mb-12">
-                    <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
+                    <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
                     <h1 className="text-5xl font-bold text-cyan-700">Une <span className='text-red-400'>équipe </span>à votre écoute</h1>
                     <p className="text-lg text-gray-600 mt-4 px-4 md:px-0">
                         Découvrez nos services professionnels pour un sourire éclatant

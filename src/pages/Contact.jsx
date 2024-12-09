@@ -7,7 +7,7 @@ const Contact = () => {
             <section class="bg-white py-12 px-4 md:px-0">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
                         <h1 className="text-5xl font-bold text-cyan-700">Un rendez-vous? Une <span className='text-red-400'>question?</span></h1>
                         <p class="mt-4 text-lg text-gray-600">
                             N'hésitez pas à échanger avec notre secrétariat pour toute question ou demande de rendez-vous.

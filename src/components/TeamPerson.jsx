@@ -3,7 +3,7 @@ export default function TeamPerson() {
         <div className="bg-gray-100 py-16">
             {/* Centered Text */}
             <div className="container mx-auto text-center mb-12">
-                <p className="text-red-400 uppercase mb-2">Cabinet dentaire di bosco Mazzella</p>
+                <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
                 <h1 className="text-5xl font-bold text-cyan-700">Une <span className='text-red-400'>équipe</span> à votre écoute</h1>
                 <p className="text-lg text-gray-600 mt-4">
                     Découvrez leurs profils

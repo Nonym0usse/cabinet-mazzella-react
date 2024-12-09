@@ -16,7 +16,7 @@ const Soins = () => {
             <div className="container mx-auto py-16 min-h-[70vh] px-4 md:px-0">
                 <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/3 text-center md:text-left">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
                         <h2 className="text-3xl font-bold text-cyan-700 mb-4">Des soins de pointe !</h2>
                         <p>
                             Nous vous proposons des soins dentaires de qualité, réalisés par des professionnels de la santé bucco-dentaire.
@@ -43,7 +43,7 @@ const Soins = () => {
             <div className="container mx-auto py-16 px-4 md:px-0">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/2">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
 
                         <h1 className="text-4xl font-bold text-cyan-700">Interventions <span className='text-red-400'>courantes </span></h1>
                         <p className="text-lg text-gray-600 mb-4">
