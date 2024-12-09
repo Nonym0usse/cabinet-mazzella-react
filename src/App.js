@@ -7,6 +7,8 @@ import Cabinet from './pages/Cabinet';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Team from './pages/Team';
+import Sitemap from './pages/Sitemap';
+import MentionsLegales from './pages/MentionsLegales';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/cabinet" element={<Cabinet />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/equipe" element={<Team />} />
+          <Route path="/plandusite" element={<Sitemap />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
         <Footer />
       </div>

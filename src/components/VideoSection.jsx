@@ -10,6 +10,7 @@ const VideoSection = ({ videoUrl, title, subtitle }) => {
                 autoPlay
                 loop
                 muted
+                playsInline
             >
                 <source src={videoUrl} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -20,7 +21,7 @@ const VideoSection = ({ videoUrl, title, subtitle }) => {
                 {/* Small heading */}
                 <div className='bg-red-400 p-1.5 rounded ml-10 sm:ml-0 md:ml-0'>
                     <h6 className="text-white text-xs md:text-base text-center font-extralight tracking-wide">
-                        Cabinet dentaire Mazzella Di Bosco - Cannes
+                        Cabinet dentaire Mazzella di Bosco - Cannes
                     </h6>
                 </div>
 
@@ -56,7 +57,7 @@ const VideoSection = ({ videoUrl, title, subtitle }) => {
             </div>
 
             {/* Dark overlay */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-full"></div>
         </div>
     )
 }

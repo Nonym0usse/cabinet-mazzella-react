@@ -9,7 +9,7 @@ const Cabinet = () => {
             <div className="container mx-auto py-16 px-4 md:px-0">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/2">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Di Bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
 
                         <h2 className="text-3xl font-bold text-cyan-700 mb-4">Au coeur du centre ville de Cannes !</h2>
                         <p className="text-lg text-gray-600 mb-4">
@@ -39,7 +39,7 @@ const Cabinet = () => {
                         />
                     </div>
                     <div className="md:w-1/2">
-                        <h2 className="text-3xl font-bold text-cyan-700 mb-4">Équipement de haute technologie</h2>
+                        <h2 className="text-3xl font-bold text-cyan-700 mb-4">Équipement de dernière génération</h2>
                         <p className="text-lg text-gray-600 mb-4">
                             Le cabinet est doté d’un matériel neuf sur l’ensemble de son fonctionnement
                             qui apporte une ergonomie, une technicité et donc un confort de travail pour le

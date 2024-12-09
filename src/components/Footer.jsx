@@ -22,20 +22,22 @@ const Footer = () => {
                 <a href="#" className="hover:text-white">Cabinet Dentaire Mazzella</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">Accueil</a>
+                <a href="/soins" className="hover:text-white">Les soins du cabinet</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">Les soins du cabinet</a>
+                <a href="/equipe" className="hover:text-white">Découvrez notre équipe</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">Découvrez notre équipe</a>
+                <a href="https://www.doctolib.fr/dentiste/cannes/vincent-mazzella-di-bosco" className="hover:text-white">Prendre RDV en ligne</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">Prendre RDV en ligne</a>
+                <a href="/plandusite" className="hover:text-white">Plan du site</a>
+              </li>
+              <li>
+                <a href="/mentions-legales" className="hover:text-white">Mentions légales</a>
               </li>
             </ul>
           </div>
-
           {/* Column 3 - Contact Us */}
           <div className="space-y-4">
             <h3 className="text-lg sm:text-xl font-bold text-white">Nous contacter</h3>
@@ -64,7 +66,7 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="bg-yellow-500 py-4">
         <p className="text-center text-sm sm:text-base text-gray-50">
-          &copy; {currentYear} Cabinet dentaire Dr. Mazzella Di Bosco - Design du site Cyril VELLA
+          &copy; {currentYear} Cabinet dentaire Dr. Mazzella di Bosco - Design du site Cyril VELLA
         </p>
       </div>
     </>

@@ -16,7 +16,7 @@ const Soins = () => {
             <div className="container mx-auto py-16 min-h-[70vh] px-4 md:px-0">
                 <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/3 text-center md:text-left">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Di Bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
                         <h2 className="text-3xl font-bold text-cyan-700 mb-4">Des soins de pointe !</h2>
                         <p>
                             Nous vous proposons des soins dentaires de qualité, réalisés par des professionnels de la santé bucco-dentaire.
@@ -27,7 +27,7 @@ const Soins = () => {
                     <div className="flex justify-center md:w-1/3">
                         <img
                             src="images/cabinet-machine.jpg"
-                            alt="Vincent Mazzella Di Bosco"
+                            alt="Vincent Mazzella di Bosco"
                             className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] h-auto object-cover rounded"
                         />
                     </div>
@@ -43,7 +43,7 @@ const Soins = () => {
             <div className="container mx-auto py-16 px-4 md:px-0">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/2">
-                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire Di Bosco Mazzella</p>
+                        <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
 
                         <h1 className="text-4xl font-bold text-cyan-700">Interventions <span className='text-red-400'>courantes </span></h1>
                         <p className="text-lg text-gray-600 mb-4">

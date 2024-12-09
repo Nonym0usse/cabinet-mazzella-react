@@ -1,4 +1,4 @@
-import { ClockIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import { ClockIcon, EnvelopeIcon, MapPinIcon, PhoneIcon, StarIcon } from '@heroicons/react/24/outline';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -28,6 +28,10 @@ const Navbar = () => {
                             <MapPinIcon className="h-6 w-6 text-gray-50" />
                             <p className="text-gray-50 font-extralight">3 Rue des Mimosas, 06400 Cannes</p>
                         </div>
+                        <div className="flex items-center space-x-2">
+                            <StarIcon className="h-6 w-6 text-gray-50" />
+                            <p className="text-gray-50 font-extralight">Avis clients 4,3/5</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,8 +39,8 @@ const Navbar = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center">
-                            <Link to="/" className="text-neutral-400 font-bold text-xl">
-                                Cabinet dentaire Dr. Mazzella Di Bosco
+                            <Link to="/">
+                                <img src="/images/logo.png" alt="Cabinet dentaire Mazzella" className="w-80 h-25 md:w-80 md:h-30 lg:w-80 lg:h20" />
                             </Link>
                         </div>
                         <div className="hidden md:block">

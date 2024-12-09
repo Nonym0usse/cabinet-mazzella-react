@@ -14,8 +14,6 @@ const Home = () => {
         <>
             <VideoSection videoUrl="videos/mainvideo.mp4" title={"Une passion et une expertise"} subtitle={"au service de nos patients"} />
 
-
-
             <div className="bg-gray-100 py-16 px-4 md:px-0">
                 <div className="container mx-auto text-center mb-12">
                     <p className="text-red-400 uppercase mb-2">Cabinet dentaire di Bosco Mazzella</p>
@@ -32,7 +30,7 @@ const Home = () => {
                         </a>
                         <div className="p-5">
                             <a href="/cabinet">
-                                <h5 className="mb-2 text-2xl tracking-tight text-cyan-700">Bienvenue au cabinet Dentaire du Dr. Mazzella di-Bosco</h5>
+                                <h5 className="mb-2 text-2xl tracking-tight text-cyan-700">Bienvenue au cabinet Dentaire du Dr. Mazzella di Bosco</h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Découvrez les technologies de pointe que nous utilisons pour des soins dentaires avancés, des systèmes d'implantologie innovants aux outils de radiologie de dernière génération.
@@ -136,7 +134,7 @@ const Home = () => {
                         <img
                             src="images/alignementdentaire.png"
                             alt="Service 1"
-                            className="w-30 h-30 object-cover rounded-lg"
+                            className="w-20 h-30 object-cover rounded-lg"
                         />
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Alignement dentaire</h2>
                         <p className="text-gray-600 mt-2 text-center">
@@ -174,31 +172,27 @@ const Home = () => {
             </div>
 
 
-            <div
-                className="relative h-[60vh] overflow-hidden bg-cover bg-center"
-                style={{ backgroundImage: "url('images/cabinet-bg.jpg')" }}  // Set your image URL here
-            >
-                <div className="container relative z-10 mx-auto h-full flex flex-col items-start justify-center">
-                    <div className="w-full md:w-1/2 p-4">
-                        <p className="text-red-400 uppercase mb-2 px-4 md:px-0">Équipe professionnelle</p>
-                        <p className="text-white text-xl md:text-2xl font-bold text-left px-4 md:px-0">
-                            Le cabinet est doté d’un matériel neuf sur l’ensemble de son fonctionnement qui apporte une ergonomie, une technicité et donc un confort de travail pour le patient et le praticien. L’attention apportée à la décoration du cabinet permet aux patients de se sentir à l’aise dans un cadre chaleureux.
-                        </p>
-
-                        <div className="flex flex-row space-x-4 mt-4 px-4 md:px-0">
-                            <Link to="/soins" className="text-gray-50 bg-cyan-600 hover:bg-gray-700 hover:text-white px-4 py-3 rounded-md text-lg font-medium">
-                                Nos soins
-                            </Link>
-                            <Link to="/contact" className="text-neutral-400 bg-slate-50 hover:bg-gray-700 hover:text-white px-4 py-3 rounded-md text-lg font-medium">
-                                Contact
-                            </Link>
+            <section className="bg-gray-100 py-12">
+                <div className="container mx-auto px-4">
+                    <div className="text-center mb-8">
+                        <p className="text-red-400 uppercase mb-2">Équipe professionnelle</p>
+                        <h1 className="text-5xl font-bold text-cyan-700">Le <span className='text-red-400'>cabinet</span></h1>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="relative w-full max-w-6xl">
+                            <video
+                                className="w-full aspect-video rounded-lg shadow-lg"
+                                controls
+                                playsInline
+                                loop
+                            >
+                                <source src="videos/cabinet-video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
-
-                {/* Overlay to darken the image for better text visibility */}
-                <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
-            </div>
+            </section>
 
             <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 {/* Tabs */}
@@ -277,9 +271,9 @@ const Home = () => {
                                         <strong>Prothèse dentaire :</strong> PLUS DE METAL au cabinet depuis 20 ans
                                         uniquement des couronnes 100% céramique :
                                         <ul>
-                                            <li>Couronne ou bridge scellés</li>
-                                            <li>Facettes collées céramique à des fins esthétiques</li>
-                                            <li>Couronne sur implant scellée ou transvissée</li>
+                                            <li>Couronne ou bridge scellés.</li>
+                                            <li>Facettes collées céramique à des fins esthétiques.</li>
+                                            <li>Couronne sur implant scellée ou transvissée.</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -400,7 +394,7 @@ const Home = () => {
                             <img
                                 src="images/blanchiment-photo.jpg"
                                 alt="Tab 2"
-                                className="w-full h-auto object-cover rounded-lg shadow-lg"
+                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -437,7 +431,7 @@ const Home = () => {
                             <img
                                 src="images/alignement-photo.jpg"
                                 alt="Tab 2"
-                                className="w-full h-auto object-cover rounded-lg shadow-lg"
+                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -475,15 +469,13 @@ const Home = () => {
                             <img
                                 src="images/equipement.jpg"
                                 alt="Tab 2"
-                                className="w-full h-auto object-cover rounded-lg shadow-lg"
+                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
 
                 )}
             </div>
-
-
         </>
     );
 };

@@ -15,7 +15,7 @@ const ImageSection = ({ imgUrl, title, subtitle }) => {
                 {/* Small Heading */}
                 <div className="bg-red-400 p-1.5 rounded">
                     <h6 className="text-white text-xs md:text-base text-center font-extralight tracking-wide">
-                        Cabinet dentaire Mazzella Di Bosco - Cannes
+                        Cabinet dentaire Mazzella di Bosco - Cannes
                     </h6>
                 </div>
 
@@ -30,16 +30,16 @@ const ImageSection = ({ imgUrl, title, subtitle }) => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 w-full md:w-80">
+                <div className="flex flex-row space-x-4 mt-4 w-full md:w-auto mx-auto ml-10 md:ml-0">
                     <Link
                         to="/soins"
-                        className="text-gray-50 bg-cyan-700 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-full flex items-center justify-center tracking-wide"
+                        className="text-gray-50 bg-cyan-700 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-auto flex items-center justify-center tracking-wide"
                     >
                         Nos soins
                     </Link>
                     <Link
                         to="/contact"
-                        className="text-red-400 bg-slate-50 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-full flex items-center justify-center tracking-wide"
+                        className="text-red-400 bg-slate-50 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-auto flex items-center justify-center tracking-wide"
                     >
                         Contact
                     </Link>
@@ -47,7 +47,7 @@ const ImageSection = ({ imgUrl, title, subtitle }) => {
             </div>
 
             {/* Dark overlay for better text visibility */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-full"></div>
         </div>
     );
 }
