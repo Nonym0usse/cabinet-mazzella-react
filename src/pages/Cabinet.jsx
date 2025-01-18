@@ -11,7 +11,7 @@ const Cabinet = () => {
                     <div className="md:w-1/2">
                         <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
 
-                        <h2 className="text-3xl font-bold text-cyan-700 mb-4">Au coeur du centre ville de Cannes !</h2>
+                        <h2 className="text-3xl font-bold text-teal-700 mb-4">Au coeur du centre ville de Cannes !</h2>
                         <p className="text-lg text-gray-600 mb-4">
                             En plein centre de Cannes proche de la rue d’Antibes avec le parking « Lamy »
                             à 50 m du cabinet (gratuité les deux premières heures).
@@ -39,7 +39,7 @@ const Cabinet = () => {
                         />
                     </div>
                     <div className="md:w-1/2">
-                        <h2 className="text-3xl font-bold text-cyan-700 mb-4">Équipement de dernière génération</h2>
+                        <h2 className="text-3xl font-bold text-teal-700 mb-4">Équipement de dernière génération</h2>
                         <p className="text-lg text-gray-600 mb-4">
                             Le cabinet est doté d’un matériel neuf sur l’ensemble de son fonctionnement
                             qui apporte une ergonomie, une technicité et donc un confort de travail pour le

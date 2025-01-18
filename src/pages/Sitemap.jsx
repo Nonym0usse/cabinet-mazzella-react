@@ -27,14 +27,14 @@ const Sitemap = () => {
                                     href={link.path}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-cyan-700 hover:underline text-lg"
+                                    className="text-teal-700 hover:underline text-lg"
                                 >
                                     {link.name}
                                 </a>
                             ) : (
                                 <Link
                                     to={link.path}
-                                    className="text-cyan-700 hover:underline text-lg"
+                                    className="text-teal-700 hover:underline text-lg"
                                 >
                                     {link.name}
                                 </Link>

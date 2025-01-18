@@ -21,19 +21,19 @@ const ImageSection = ({ imgUrl, title, subtitle }) => {
 
                 {/* Title */}
                 <div className="bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold">
-                    <h1 className="text-cyan-700 text-3xl md:text-5xl lg:text-6xl text-center">{title}</h1>
+                    <h1 className="text-teal-700 text-3xl md:text-5xl lg:text-6xl text-center">{title}</h1>
                 </div>
 
                 {/* Subtitle */}
                 <div className="bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold">
-                    <h1 className="text-cyan-700 text-3xl md:text-5xl lg:text-6xl text-center">{subtitle}</h1>
+                    <h1 className="text-teal-700 text-3xl md:text-5xl lg:text-6xl text-center">{subtitle}</h1>
                 </div>
 
                 {/* Buttons */}
                 <div className="flex flex-row space-x-4 mt-4 w-full md:w-auto mx-auto ml-10 md:ml-0">
                     <Link
                         to="/soins"
-                        className="text-gray-50 bg-cyan-700 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-auto flex items-center justify-center tracking-wide"
+                        className="text-gray-50 bg-teal-700 hover:bg-gray-700 hover:text-white px-8 py-4 rounded-md text-base md:text-lg font-medium w-auto flex items-center justify-center tracking-wide"
                     >
                         Nos soins
                     </Link>

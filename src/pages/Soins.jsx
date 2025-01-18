@@ -17,11 +17,12 @@ const Soins = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/3 text-center md:text-left">
                         <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
-                        <h2 className="text-3xl font-bold text-cyan-700 mb-4">Des soins de pointe !</h2>
+                        <h2 className="text-3xl font-bold text-teal-700 text-teal-700 mb-4">Des soins de qualité !</h2>
                         <p>
-                            Nous vous proposons des soins dentaires de qualité, réalisés par des professionnels de la santé bucco-dentaire.
-                            Notre équipe est composée de chirurgiens dentistes expérimentés, qui sauront vous accompagner dans votre démarche
-                            de soins dentaires.
+                            Au sein du cabinet nous proposons, des soins
+                            de qualité dans tous les domaines d’actes dentaires des plus simples (détartrage avec
+                            aéropolissage, compposites esthétiques …) aux plus complexes ( Régénération osseuse
+                            guidée (ROG), implantologie …).
                         </p>
                     </div>
                     <div className="flex justify-center md:w-1/3">
@@ -44,46 +45,121 @@ const Soins = () => {
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/2">
                         <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
-
-                        <h1 className="text-4xl font-bold text-cyan-700">Interventions <span className='text-red-400'>courantes </span></h1>
                         <p className="text-lg text-gray-600 mb-4">
-                            Voici la liste des principaux soins dentaires que nous proposons dans notre cabinet dentaire :
+                            Liste non exhaustive des soins dentaires que nous proposons au cabinet :
                         </p>
                         <div className="text-lg text-gray-600 space-y-4">
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">Le bilan bucco-dentaire</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">Le traitement des caries</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">Le détartrage</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">L'endodontie</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">Les couronnes</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">Les prothèses</li>
-                            </ul>
-                            <ul className="flex items-center space-x-2">
-                                <CheckIcon className="h-6 w-6 text-red-400" />
-                                <li className="text-gray-600">L'extraction dentaire</li>
+                            <ul className="flex flex-col space-y-4">
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Interventions classiques:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Traitement de caries uniquement par composites esthétiques ou par technique inlay-onlay</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Détartrage en profondeur avec aéropolissage</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Endodontie mécanisée (dévitalisation)</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="text-gray-600">
+                                    Implantologie (implants français : Global D)
+                                </li>
+
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Parodontologie:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Surfaçage radiculaire, lambeaux d’assainissements</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Greffe osseuse (ROG), PRF (membranes naturelles par prélèvement sanguin)</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Comblement osseux</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Chirurgie:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Elongation coronaire, ostéoplastie</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Freinectomie, amputation radiculaire</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Chirurgie à rétro (endodontie)</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Alignement dentaire:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Système français « Smilers » avec gouttières invisibles</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Contention collée par attelle personnalisée</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Prothèse dentaire:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Prothèse fixe 100% céramique, scellée (couronne ou bridge)</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Prothèse collée (facettes)</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="text-gray-600">
+                                    <p className="font-bold text-teal-700">Occlusodontie:</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Gestion des cas de bruxisme</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Gouttière de désappamation</span>
+                                        </li>
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Réglages occlusaux par coronoplasties et contentions personnalisées</span>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="md:w-1/2">
                         <img
-                            src="images/cabinet-machine2.jpg"
+                            src="images/cabinet.jpg"
                             alt="Tab 1"
                             className="w-auto h-auto object-cover rounded-lg shadow-lg"
                         />
@@ -95,7 +171,7 @@ const Soins = () => {
                 <div className="w-full max-w-6xl p-4 bg-white rounded-lg shadow-md">
                     <div className="border-b border-gray-200">
                         <button
-                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-cyan-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
+                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-teal-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
                             onClick={() => handleToggle(1)}
                         >
                             <span>L'esthétique dentaire</span>
@@ -118,7 +194,7 @@ const Soins = () => {
 
                     <div className="border-b border-gray-200">
                         <button
-                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-cyan-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
+                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-teal-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
                             onClick={() => handleToggle(2)}
                         >
                             <span>L'implantologie</span>
@@ -141,7 +217,7 @@ const Soins = () => {
 
                     <div className="border-b border-gray-200">
                         <button
-                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-cyan-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
+                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-teal-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
                             onClick={() => handleToggle(3)}
                         >
                             <span>La paradontologie</span>
@@ -164,7 +240,7 @@ const Soins = () => {
 
                     <div className="border-b border-gray-200">
                         <button
-                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-cyan-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
+                            className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold text-teal-700 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-cyan-500"
                             onClick={() => handleToggle(4)}
                         >
                             <span>Les prothèses dentaires</span>

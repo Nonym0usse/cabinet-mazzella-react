@@ -4,7 +4,7 @@ export default function TeamPerson() {
             {/* Centered Text */}
             <div className="container mx-auto text-center mb-12">
                 <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
-                <h1 className="text-5xl font-bold text-cyan-700">Une <span className='text-red-400'>équipe</span> à votre écoute</h1>
+                <h1 className="text-5xl font-bold text-teal-700">Une <span className='text-red-400'>équipe</span> à votre écoute</h1>
                 <p className="text-lg text-gray-600 mt-4">
                     Découvrez leurs profils
                 </p>
@@ -14,7 +14,7 @@ export default function TeamPerson() {
                 <div className="flex flex-col items-center">
                     <img
                         src="images/vincent.png"
-                        alt="Service 1"
+                        alt="Dr. Vincent Mazzella di Bosco"
                         className="w-[200px] h-[200px] object-cover rounded-full"
                     />
                     <h2 className="text-xl font-semibold text-gray-800 mt-4">Dr. Vincent Mazzella di Bosco</h2>
@@ -26,7 +26,7 @@ export default function TeamPerson() {
                 <div className="flex flex-col items-center">
                     <img
                         src="images/person.png"
-                        alt="Service 1"
+                        alt="Déborah"
                         className="w-[200px] h-[200px] object-cover rounded-full"
                     />
                     <h2 className="text-xl font-semibold text-gray-800 mt-4">Déborah</h2>
@@ -38,13 +38,13 @@ export default function TeamPerson() {
                 {/* Second Image and Text */}
                 <div className="flex flex-col items-center">
                     <img
-                        src="images/random.png"
-                        alt="Service 2"
+                        src="images/martin.jpg"
+                        alt="Martin espinasse"
                         className="w-[200px] h-[200px] object-cover rounded-full"
                     />
                     <h2 className="text-xl font-semibold text-gray-800 mt-4">Martin Espinasse</h2>
                     <p className="text-gray-600 mt-2 text-center">
-                        Prothésiste Dentaire (photo a fournir)
+                        Prothésiste Dentaire
                     </p>
                 </div>
             </div>

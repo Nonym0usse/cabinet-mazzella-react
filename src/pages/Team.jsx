@@ -5,7 +5,7 @@ import TeamPerson from "../components/TeamPerson";
 const Team = () => {
     return (
         <>
-            <ImageSection title={"On vous présente"} subtitle={"l'équipe du cabinet"} imgUrl={"images/cabinet.jpg"} />
+            <ImageSection title={"Nous vous présentons"} subtitle={"l'équipe du cabinet"} imgUrl={"images/cabinet.jpg"} />
 
             <TeamPerson />
 
@@ -13,9 +13,6 @@ const Team = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="p-8 flex flex-col lg:flex-row items-center lg:items-start">
                         <div className="lg:w-2/3 relative">
-                            <div className="absolute top-0 left-0 text-gray-50 text-6xl font-bold opacity-20">
-                                “
-                            </div>
                             <h2 className="text-2xl font-extrabold text-gray-50 relative z-10">
                                 En tant que chirurgien-dentiste
                             </h2>
@@ -28,9 +25,6 @@ const Team = () => {
                             <p className="mt-4 text-gray-50 relative z-10">
                                 Avec l’aide de mon assistante nous avons à cœur d’être très disponibles et à l’écoute de nos patients et aussi d’apporter un suivi dans le temps afin de pérenniser les soins réalisés.
                             </p>
-                            <div className="absolute bottom-0 right-0 text-gray-50 text-6xl font-bold opacity-20">
-                                ”
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -40,7 +34,7 @@ const Team = () => {
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="space-y-8 text-gray-700">
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-cyan-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
                                 Déborah, l’assistante dentaire
                             </h2>
                             <p>
@@ -52,7 +46,7 @@ const Team = () => {
                         </div>
 
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-cyan-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
                                 Docteur Vincent Mazzella di Bosco
                             </h2>
                             <p>
@@ -67,7 +61,7 @@ const Team = () => {
                         </div>
 
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-cyan-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
                                 Martin Espinasse, Prothésiste Dentaire
                             </h2>
                             <p>

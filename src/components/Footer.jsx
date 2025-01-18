@@ -2,7 +2,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer className="bg-cyan-800 text-gray-300 py-12 px-4 md:px-0">
+      <footer className="bg-teal-700 text-gray-300 py-12 px-4 md:px-0">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Column 1 - Opening Hours */}
           <div className="space-y-4">
@@ -64,7 +64,7 @@ const Footer = () => {
       </footer>
 
       {/* Bottom Footer */}
-      <div className="bg-yellow-500 py-4">
+      <div className="bg-red-400 py-4">
         <p className="text-center text-sm sm:text-base text-gray-50">
           &copy; {currentYear} Cabinet dentaire Dr. Mazzella di Bosco - Design du site Cyril VELLA
         </p>
