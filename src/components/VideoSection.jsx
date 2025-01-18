@@ -26,14 +26,14 @@ const VideoSection = ({ videoUrl, title, subtitle }) => {
                 </div>
 
                 {/* Title */}
-                <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-0 ml-10 md:ml-0'>
+                <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-2 ml-10 md:ml-0'>
                     <h1 className="text-teal-700 text-3xl md:text-5xl lg:text-6xl text-center">
                         {title}
                     </h1>
                 </div>
 
                 {/* Subtitle */}
-                <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-0 ml-10 md:ml-0'>
+                <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-2 ml-10 md:ml-0'>
                     <h1 className="text-teal-700 text-3xl md:text-5xl lg:text-6xl text-center">
                         {subtitle}
                     </h1>
