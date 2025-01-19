@@ -94,7 +94,7 @@ const Home = () => {
                         />
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Interventions classiques</h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Détartrage, extraction, dévitalisation, traitement des carries.
+                            Détartrage et traitement de carries.
                         </p>
                     </div>
 
@@ -120,7 +120,7 @@ const Home = () => {
                         />
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Endodontie</h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Surfaçage et greffe.
+                            Dévitalisation, chirurgie endodontique.
                         </p>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ const Home = () => {
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Prothèses dentaires
                         </h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Fixes et amovibles.
+                            Fixes.
                         </p>
                     </div>
 
@@ -166,7 +166,7 @@ const Home = () => {
                         />
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Chirurgie</h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Dermatologie buccale.
+                            Parondontale et ROG
                         </p>
                     </div>
                 </div>
@@ -185,7 +185,8 @@ const Home = () => {
                                 className="w-full aspect-video rounded-lg shadow-lg"
                                 controls
                                 playsInline
-                                loop
+                                preload="metadata"
+                                poster="images/preview.png"
                             >
                                 <source src="videos/cabinet-video.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
@@ -284,8 +285,8 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <img
                                 src="images/soins-photo.jpg"
-                                alt="Tab 1"
-                                className="w-auto h-auto object-cover rounded-lg shadow-lg"
+                                alt="Soins dentaires"
+                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -339,8 +340,8 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <img
                                 src="images/chirurgie-photo2.jpg"
-                                alt="Tab 2"
-                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
+                                alt="Chiurgie"
+                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -394,8 +395,8 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <img
                                 src="images/blanchiment-photo.jpg"
-                                alt="Tab 2"
-                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
+                                alt="Blanchiment dentaire"
+                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -431,8 +432,8 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <img
                                 src="images/alignement-photo.jpg"
-                                alt="Tab 2"
-                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
+                                alt="Alignement dentaire"
+                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -469,8 +470,8 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <img
                                 src="images/equipement.jpg"
-                                alt="Tab 2"
-                                className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
+                                alt="Eclaircissement dentaire"
+                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>

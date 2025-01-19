@@ -21,7 +21,7 @@ const Soins = () => {
                         <p className="text-lg text-gray-600 mb-4">
                             Au sein du cabinet nous proposons, des soins
                             de qualité dans tous les domaines d’actes dentaires des plus simples (détartrage avec
-                            aéropolissage, compposites esthétiques …) aux plus complexes ( Régénération osseuse
+                            aéropolissage, composites esthétiques …) aux plus complexes (régénération osseuse
                             guidée (ROG), implantologie …).
                         </p>
                     </div>
@@ -69,8 +69,15 @@ const Soins = () => {
                                 </li>
 
                                 <li className="text-gray-600">
-                                    Implantologie (implants français : Global D)
+                                    <p className="font-bold text-teal-600">Implantologie</p>
+                                    <ul className="space-y-2">
+                                        <li className="flex items-center space-x-2">
+                                            <CheckIcon className="h-6 w-6 text-red-400" />
+                                            <span>Implants français : Global D</span>
+                                        </li>
+                                    </ul>
                                 </li>
+
 
                                 <li className="text-gray-600">
                                     <p className="font-bold text-teal-600">Parodontologie:</p>
