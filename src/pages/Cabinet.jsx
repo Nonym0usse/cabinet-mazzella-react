@@ -6,12 +6,12 @@ const Cabinet = () => {
         <>
             <ImageSection title={"Un cabinet moderne et chaleureux"} subtitle={"à Cannes"} imgUrl={"images/cabinet.jpg"} />
 
-            <div className="container mx-auto py-16 px-4 md:px-0">
+            <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-4">
                     <div className="md:w-1/2">
                         <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
 
-                        <h2 className="text-3xl font-bold text-teal-700 mb-4">Au coeur du centre ville de Cannes !</h2>
+                        <h2 className="text-3xl font-bold text-teal-600 mb-4">Au coeur du centre ville de Cannes !</h2>
                         <p className="text-lg text-gray-600 mb-4">
                             En plein centre de Cannes proche de la rue d’Antibes avec le parking « Lamy »
                             à 50 m du cabinet (gratuité les deux premières heures).
@@ -28,7 +28,7 @@ const Cabinet = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto py-16 px-4 md:px-0 px-4 md:px-0">
+            <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
 
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-8 mt-8">
                     <div className="md:w-1/2">
@@ -39,7 +39,7 @@ const Cabinet = () => {
                         />
                     </div>
                     <div className="md:w-1/2">
-                        <h2 className="text-3xl font-bold text-teal-700 mb-4">Équipement de dernière génération</h2>
+                        <h2 className="text-3xl font-bold text-teal-600 mb-4">Équipement de dernière génération</h2>
                         <p className="text-lg text-gray-600 mb-4">
                             Le cabinet est doté d’un matériel neuf sur l’ensemble de son fonctionnement
                             qui apporte une ergonomie, une technicité et donc un confort de travail pour le

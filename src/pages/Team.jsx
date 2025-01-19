@@ -34,7 +34,7 @@ const Team = () => {
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="space-y-8 text-gray-700">
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-600 mb-4">
                                 Déborah, l’assistante dentaire
                             </h2>
                             <p>
@@ -46,7 +46,7 @@ const Team = () => {
                         </div>
 
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-600 mb-4">
                                 Docteur Vincent Mazzella di Bosco
                             </h2>
                             <p>
@@ -61,7 +61,7 @@ const Team = () => {
                         </div>
 
                         <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
-                            <h2 class="text-2xl font-extrabold text-teal-700 mb-4">
+                            <h2 class="text-2xl font-extrabold text-teal-600 mb-4">
                                 Martin Espinasse, Prothésiste Dentaire
                             </h2>
                             <p>

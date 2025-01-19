@@ -17,7 +17,7 @@ const Home = () => {
             <div className="bg-gray-100 py-16 px-4 md:px-0">
                 <div className="container mx-auto text-center mb-12">
                     <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
-                    <h1 className="text-5xl font-bold text-teal-700">Une <span className='text-red-400'>équipe </span>à votre écoute</h1>
+                    <h1 className="text-5xl font-bold text-teal-600">Une <span className='text-red-400'>équipe </span>à votre écoute</h1>
                     <p className="text-lg text-gray-600 mt-4 px-4 md:px-0">
                         Un service professionnel de qualité pour un sourire éclatant
                     </p>
@@ -29,12 +29,12 @@ const Home = () => {
                             <img className="rounded-t-lg min-h-[300px] md:min-h-[200px] md:max-h-[400px] lg:max-h-[500px]" src="/images/cabinet-bg2.png" alt="Cabinet dentaire" />                        </a>
                         <div className="p-5">
                             <a href="/cabinet">
-                                <h5 className="mb-2 text-2xl tracking-tight text-teal-700">Bienvenue au cabinet Dentaire du Dr. Mazzella di Bosco</h5>
+                                <h5 className="mb-2 text-2xl tracking-tight text-teal-600">Bienvenue au cabinet Dentaire du Dr. Mazzella di Bosco</h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Découvrez les technologies de pointe que nous utilisons pour des soins dentaires de qualité, des systèmes d'implantologie innovants aux outils de radiologie de dernière génération.
                             </p>
-                            <a href="/cabinet" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-400 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            <a href="/cabinet" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-400 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Voir plus
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -49,14 +49,14 @@ const Home = () => {
                         </a>
                         <div className="p-5">
                             <a href="/equipe">
-                                <h5 className="mb-2 text-2xl tracking-tight text-teal-700">L'équipe</h5>
+                                <h5 className="mb-2 text-2xl tracking-tight text-teal-600">L'équipe</h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 Rencontrez notre équipe d'experts dédiée à vous offrir les meilleurs soins dentaires avec une écoute bienveillante. Chacun dans son domaine vous apportera un niveau
                                 de compétence adapté à
                                 vos besoins spécifiques.
                             </p>
-                            <a href="/equipe" className="inline-flex items-center px-3 py-2 mt-7 text-sm font-medium text-center text-white bg-red-400 rounded-lg hover:bg-teal-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            <a href="/equipe" className="inline-flex items-center px-3 py-2 mt-7 text-sm font-medium text-center text-white bg-red-400 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Voir plus
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -77,7 +77,7 @@ const Home = () => {
                 {/* Centered Text */}
                 <div className="container mx-auto text-center mb-12">
                     <p className="text-red-400 uppercase mb-2">Principales prestations</p>
-                    <h1 className="text-5xl font-bold text-teal-700">Nos <span className='text-red-400'>services</span></h1>
+                    <h1 className="text-5xl font-bold text-teal-600">Nos <span className='text-red-400'>services</span></h1>
                     <p className="text-lg text-gray-600 mt-4">
                         Un service professionnel de qualité pour un sourire éclatant
                     </p>
@@ -177,7 +177,7 @@ const Home = () => {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-8">
                         <p className="text-red-400 uppercase mb-2">Équipe professionnelle</p>
-                        <h1 className="text-5xl font-bold text-teal-700">Le <span className='text-red-400'>cabinet</span></h1>
+                        <h1 className="text-5xl font-bold text-teal-600">Le <span className='text-red-400'>cabinet</span></h1>
                     </div>
                     <div className="flex justify-center">
                         <div className="relative w-full max-w-6xl">

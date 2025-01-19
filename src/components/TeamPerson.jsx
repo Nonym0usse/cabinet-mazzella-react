@@ -4,7 +4,7 @@ export default function TeamPerson() {
             {/* Centered Text */}
             <div className="container mx-auto text-center mb-12">
                 <p className="text-red-400 uppercase mb-2">Cabinet dentaire Mazzella di Bosco</p>
-                <h1 className="text-5xl font-bold text-teal-700">Une <span className='text-red-400'>équipe</span> à votre écoute</h1>
+                <h1 className="text-5xl font-bold text-teal-600">Une <span className='text-red-400'>équipe</span> à votre écoute</h1>
                 <p className="text-lg text-gray-600 mt-4">
                     Découvrez leurs profils
                 </p>

@@ -8,7 +8,7 @@ const MentionsLegales = () => {
                 
                 {/* Section 1: Éditeur du site */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">1. Éditeur du site</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">1. Éditeur du site</h2>
                     <p className="text-gray-600">
                         <strong>Nom de l'entreprise :</strong> DOCTEUR MAZZELLA DI BOSCO<br />
                         <strong>Forme juridique :</strong> Société d'exercice libéral à responsabilité limitée<br />
@@ -21,7 +21,7 @@ const MentionsLegales = () => {
 
                 {/* Section 2: Hébergement */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">2. Hébergement du site</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">2. Hébergement du site</h2>
                     <p className="text-gray-600">
                         <strong>Nom de l'hébergeur :</strong> O2SWITCH<br />
                         <strong>Adresse :</strong> Chem. des Pardiaux, 63000 Clermont-Ferrand<br />
@@ -33,7 +33,7 @@ const MentionsLegales = () => {
 
                 {/* Section 3: Propriété intellectuelle */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">3. Propriété intellectuelle</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">3. Propriété intellectuelle</h2>
                     <p className="text-gray-600">
                         Tous les éléments de ce site (textes, images, graphismes, logos, vidéos, etc.) sont la propriété exclusive de 
                         <strong> DOCTEUR MAZZELLA DI BOSCO</strong> ou font l’objet d’une autorisation d’utilisation. Toute reproduction est interdite sans autorisation préalable.
@@ -42,7 +42,7 @@ const MentionsLegales = () => {
 
                 {/* Section 4: Protection des données personnelles */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">4. Protection des données personnelles</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">4. Protection des données personnelles</h2>
                     <p className="text-gray-600">
                         Conformément au RGPD, vous disposez de droits sur vos données : accès, rectification, suppression. 
                         Pour exercer vos droits, contactez-nous à :<br />
@@ -53,7 +53,7 @@ const MentionsLegales = () => {
 
                 {/* Section 5: Limitation de responsabilité */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">5. Limitation de responsabilité</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">5. Limitation de responsabilité</h2>
                     <p className="text-gray-600">
                         DOCTEUR MAZZELLA DI BOSCO met tout en œuvre pour assurer l'exactitude des informations sur ce site, mais ne peut être tenue responsable des erreurs, omissions ou conséquences de l'utilisation de ces informations.
                     </p>
@@ -61,7 +61,7 @@ const MentionsLegales = () => {
 
                 {/* Section 7: Droit applicable */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-semibold text-teal-700 mb-2">6. Droit applicable</h2>
+                    <h2 className="text-xl font-semibold text-teal-600 mb-2">6. Droit applicable</h2>
                     <p className="text-gray-600">
                         Les présentes mentions légales sont régies par les lois françaises. Tout litige sera soumis aux tribunaux compétents.
                     </p>
