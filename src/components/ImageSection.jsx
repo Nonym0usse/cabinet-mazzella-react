@@ -20,14 +20,14 @@ const ImageSection = ({ imgUrl, title, subtitle }) => {
 
                 {/* Title */}
                 <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-2 ml-10 md:ml-0'>
-                    <h1 className="text-teal-600 md:text-5xl lg:text-5xl sm:text-left text-center">
+                    <h1 className="text-teal-600 text-left sm:text-left md:text-5xl sm:text-5xl lg:text-5xl md:text-left">
                         {title}
                     </h1>
                 </div>
 
                 {/* Subtitle */}
                 <div className='bg-slate-50 p-2 rounded mt-2 font-catamaran font-semibold md:pl-2 ml-10 md:ml-0'>
-                    <h1 className="text-teal-600 md:text-5xl lg:text-5xl sm:text-left text-center">
+                    <h1 className="text-teal-600 text-left sm:text-left md:text-5xl sm:text-5xl lg:text-5xl md:text-left">
                         {subtitle}
                     </h1>
                 </div>

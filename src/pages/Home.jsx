@@ -153,7 +153,7 @@ const Home = () => {
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Prothèses dentaires
                         </h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Fixes
+                            Fixes.
                         </p>
                     </div>
 
@@ -166,7 +166,7 @@ const Home = () => {
                         />
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Chirurgie</h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Parondontale et ROG
+                            Parondontale et ROG.
                         </p>
                     </div>
                 </div>
@@ -185,6 +185,7 @@ const Home = () => {
                                 className="w-full aspect-video rounded-lg shadow-lg"
                                 controls
                                 playsInline
+                                loop
                                 preload="metadata"
                                 poster="images/preview.png"
                             >
