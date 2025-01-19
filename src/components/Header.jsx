@@ -100,24 +100,28 @@ const Navbar = () => {
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             <Link
                                 to="/"
+                                onClick={() => setIsOpen(!isOpen)}
                                 className="text-neutral-400 tracking-widest hover:bg-teal-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Accueil
                             </Link>
                             <Link
                                 to="/soins"
+                                onClick={() => setIsOpen(!isOpen)}
                                 className="text-neutral-400 tracking-widest hover:bg-teal-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Soins
                             </Link>
                             <Link
                                 to="/cabinet"
+                                onClick={() => setIsOpen(!isOpen)}
                                 className="text-neutral-400 tracking-widest hover:bg-teal-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Cabinet
                             </Link>
                             <Link
                                 to="/contact"
+                                onClick={() => setIsOpen(!isOpen)}
                                 className="text-neutral-400 tracking-widest hover:bg-teal-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                             >
                                 Contact

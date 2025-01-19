@@ -153,7 +153,7 @@ const Home = () => {
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Prothèses dentaires
                         </h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Fixes.
+                            Fixes
                         </p>
                     </div>
 
@@ -286,7 +286,7 @@ const Home = () => {
                             <img
                                 src="images/soins-photo.jpg"
                                 alt="Soins dentaires"
-                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
+                                className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -341,7 +341,7 @@ const Home = () => {
                             <img
                                 src="images/chirurgie-photo2.jpg"
                                 alt="Chiurgie"
-                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
+                                className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -396,7 +396,7 @@ const Home = () => {
                             <img
                                 src="images/blanchiment-photo.jpg"
                                 alt="Blanchiment dentaire"
-                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
+                                className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -433,7 +433,7 @@ const Home = () => {
                             <img
                                 src="images/alignement-photo.jpg"
                                 alt="Alignement dentaire"
-                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
+                                className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
@@ -471,7 +471,7 @@ const Home = () => {
                             <img
                                 src="images/equipement.jpg"
                                 alt="Eclaircissement dentaire"
-                                className="w-full lg:max-h-[600px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
+                                className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
                     </div>
