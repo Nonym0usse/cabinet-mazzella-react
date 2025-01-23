@@ -433,7 +433,7 @@ const Home = () => {
                         </div>
                         <div className="md:w-1/2">
                             <img
-                                src="images/equipement.jpg"
+                                src="images/occlusiodontie.jpg"
                                 alt="Occlusodontie"
                                 className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
