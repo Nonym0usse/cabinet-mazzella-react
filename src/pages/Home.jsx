@@ -153,7 +153,7 @@ const Home = () => {
                         <h2 className="text-xl font-semibold text-gray-800 mt-4">Prothèses dentaires
                         </h2>
                         <p className="text-gray-600 mt-2 text-center">
-                            Fixes.
+                            Couronne ou bridge scellés et facettes collées.
                         </p>
                     </div>
 
@@ -262,7 +262,7 @@ const Home = () => {
                                         après les ultrasons).
                                     </li>
                                     <li className='mt-5'>
-                                        <strong>Endodontie par rotation continue :</strong> Deux cas :
+                                        <strong>Endodontie par rotation continue :</strong>
                                         <ul>
                                             <li>Dévitalisation dès lors que le nerf est touché après traitement d’une carie
                                                 ou sur dent nécrosée.</li>
@@ -358,38 +358,14 @@ const Home = () => {
                                     <strong>Éclaircissement dentaire</strong>
                                     <p className='mt-5'>Nettoyage en surface de l’émail par
                                         action d’une molécule, H2O2 (eau oxygénée) sous la forme de peroxyde d’hydrogène qui
-                                        casse les molécules encrassant l’émail</p>
+                                        casse les molécules encrassant l’émail.</p>
 
-                                </li>
-                                <li className='mt-5'>
-                                    <strong>Augmentation de crêtes :</strong> On peut aujourd’hui
-                                    compenser une perte de
-                                    volume osseux après un édentement prolongé par des techniques d’apport osseux
-                                    latérales ou verticales (la technique varie en fonction du site, voir cas par cas).
                                 </li>
 
                                 <li className='mt-5'>
                                     <strong>Système de blanchiment au fauteuil</strong> : Gain de
-                                    temps et d’efficacité sans douleur et sans risque de sensibilité pour les dents
+                                    temps et d’efficacité sans douleur et sans risque de sensibilité pour les dents.
                                 </li>
-
-                                <li className='mt-5'>
-                                    <strong>Traitement d’Alignement Dentaire (Orthodontie par
-                                        Gouttières Thermoformées)</strong></li>
-                                <ul>
-                                    <li className='mt-5'>Système français « Smilers ».</li>
-                                    <li className='mt-5'>Avantages : Gouttières invisibles, fines (élocution non perturbée) avec ou sans
-                                        taquet collé. Souplesse du traitement avec gestion d’arcade séparée si nécessaire.
-                                    </li>
-                                    <li className='mt-5'>Principe : Système avec un déplacement « lent » des dents, évitant des contraintes
-                                        sur l’os, non douloureux pour le patient lors du port des gouttières.</li>
-                                </ul>
-
-                                <ul className='mt-5'>
-                                    <li>Gouttières de déspasmation lors de bruxisme articulaire.</li>
-                                    <li>Analyse occlusale lors de troubles articulaires.</li>
-                                    <li>Réglages occlusaux par coronoplastie.</li>
-                                </ul>
 
                             </div>
                         </div>
@@ -410,22 +386,18 @@ const Home = () => {
                             <div className="text-lg text-gray-600">
 
                                 <li className='mt-5'>
-                                    <strong>Éclaircissement dentaire</strong>
-                                    <p className='mt-5'>Nettoyage en surface de l’émail par
-                                        action d’une molécule, H2O2 (eau oxygénée) sous la forme de peroxyde d’hydrogène qui
-                                        casse les molécules encrassant l’émail</p>
-
-                                </li>
-                                <li className='mt-5'>
-                                    <strong>Augmentation de crêtes :</strong> On peut aujourd’hui
-                                    compenser une perte de
-                                    volume osseux après un édentement prolongé par des techniques d’apport osseux
-                                    latérales ou verticales (la technique varie en fonction du site, voir cas par cas).
+                                    <strong>Traitement d’alignement dentaire (orthodontie par gouttières thermoformées)</strong>
+                                    <p className='mt-5'>Système français « smilers ».</p>
                                 </li>
 
                                 <li className='mt-5'>
-                                    <strong>Système de blanchiment au fauteuil</strong> : Gain de
-                                    temps et d’efficacité sans douleur et sans risque de sensibilité pour les dents
+                                    <strong>Avantages</strong>
+                                    <p className='mt-5'>Gouttières invisibles, fines (élocution non perturbée) avec ou sans taquet collé. Souplesse du traitement avec gestion d’arcade séparée si nécessaire. </p>
+                                </li>
+
+                                <li className='mt-5'>
+                                    <strong>Principe</strong>
+                                    <p className='mt-5'>Système avec un déplacement « lent » des dents, évitant des contraintes sur l’os, non douloureux pour le patient lors du port des gouttières.</p>
                                 </li>
 
                             </div>
@@ -446,32 +418,23 @@ const Home = () => {
                         <div className="md:w-1/2">
                             <h2 className="text-3xl font-bold text-red-400 mb-4">Occlusodontie</h2>
                             <div className="text-lg text-gray-600">
-
                                 <li className='mt-5'>
-                                    <strong>Éclaircissement dentaire</strong>
-                                    <p className='mt-5'>Nettoyage en surface de l’émail par
-                                        action d’une molécule, H2O2 (eau oxygénée) sous la forme de peroxyde d’hydrogène qui
-                                        casse les molécules encrassant l’émail</p>
-
-                                </li>
-                                <li className='mt-5'>
-                                    <strong>Augmentation de crêtes :</strong> On peut aujourd’hui
-                                    compenser une perte de
-                                    volume osseux après un édentement prolongé par des techniques d’apport osseux
-                                    latérales ou verticales (la technique varie en fonction du site, voir cas par cas).
+                                    Gouttières de déspasmation lors de bruxisme articulaire
                                 </li>
 
                                 <li className='mt-5'>
-                                    <strong>Système de blanchiment au fauteuil</strong> : Gain de
-                                    temps et d’efficacité sans douleur et sans risque de sensibilité pour les dents
+                                    Analyse occlusale lors de troubles articulaires
                                 </li>
 
+                                <li className='mt-5'>
+                                    Réglages occlusaux par coronoplastie
+                                </li>
                             </div>
                         </div>
                         <div className="md:w-1/2">
                             <img
                                 src="images/equipement.jpg"
-                                alt="Eclaircissement dentaire"
+                                alt="Occlusodontie"
                                 className="w-full lg:max-h-[500px] md:max-h-[300px] object-cover rounded-lg shadow-lg"
                             />
                         </div>
