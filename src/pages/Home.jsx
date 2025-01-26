@@ -303,7 +303,7 @@ const Home = () => {
                                         <strong>Comblements osseux :</strong>
                                         <p className='mt-5'><strong>Ps :</strong> Utilisation systématique d’os humain
                                             (traçabilité avec la
-                                            société Biobank) ou bovin (avec la société Bio Os2).</p>
+                                            société Biobank) ou bovin (avec la société Bio Os).</p>
                                         <ul>
                                             <li className='mt-5'><strong>Systématique après extraction</strong> (excepté les dents de
                                                 sagesse) : Afin de maintenir le niveau osseux, soit pour de futurs implants,
