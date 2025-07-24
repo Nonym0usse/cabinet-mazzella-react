@@ -66,7 +66,7 @@ const Footer = () => {
             {/* Bottom Footer */}
             <div className="bg-red-400 py-4">
                 <p className="text-center text-sm sm:text-base text-gray-50">
-                    &copy; {currentYear} Cabinet dentaire Dr. Mazzella di Bosco - Design du site Cyril VELLA
+                    &copy; {currentYear} Cabinet dentaire Dr. Mazzella di Bosco - Design du site <a href="https://www.cyrilvella.fr" className="underline">Cyril VELLA</a>
                 </p>
             </div>
         </>

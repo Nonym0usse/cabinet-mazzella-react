@@ -12,21 +12,21 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <div className="flex items-center space-x-2">
                             <ClockIcon className="h-6 w-6 text-gray-50" />
-                            <p className="text-gray-50 font-extralight">Ouverture : Du lundi au vendredi</p>
+                            <p className="text-gray-50 font-light">Ouverture : <span className='font-medium'>Du lundi au vendredi</span></p>
                         </div>
                     </div>
                     <div className="flex justify-end items-center space-x-4">
                         <div className="flex items-center space-x-2">
                             <PhoneIcon className="h-6 w-6 text-gray-50" />
-                            <p className="text-gray-50 font-extralight"><a href="tel:0493391000">04 93 39 10 00</a></p>
+                            <p className="text-gray-50 font-medium"><a href="tel:0493391000">04 93 39 10 00</a></p>
                         </div>
                         <div className="flex items-center space-x-2">
                             <EnvelopeIcon className="h-6 w-6 text-gray-50" />
-                            <p className="text-gray-50 font-extralight">selarlmdb@gmail.com</p>
+                            <p className="text-gray-50 font-medium">selarlmdb@gmail.com</p>
                         </div>
                         <div className="flex items-center space-x-2">
                             <MapPinIcon className="h-6 w-6 text-gray-50" />
-                            <p className="text-gray-50 font-extralight">3 Rue des Mimosas, 06400 Cannes</p>
+                            <p className="text-gray-50 font-medium">3 Rue des Mimosas, 06400 Cannes</p>
                         </div>
                     </div>
                 </div>
